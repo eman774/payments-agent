@@ -1,5 +1,7 @@
 # Payments & Bills Agent
 
+![CI](https://github.com/eman774/payments-agent/actions/workflows/ci.yml/badge.svg)
+
 An Arabic-first (Egyptian dialect, with English fallback) AI agent that helps a customer check their balance, view unpaid bills, pay bills and top up a mobile line. It is built as an agentic workflow with **LangGraph**, tool calling against a **FastAPI** service, a **Gradio** app, and an **evaluation suite** that measures task success, tool selection and safety.
 
 > All data is fake demo data. The project is not connected to any real payment provider or company.
